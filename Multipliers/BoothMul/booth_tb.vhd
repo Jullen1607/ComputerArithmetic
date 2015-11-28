@@ -2,9 +2,9 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
-entity Testbench_di_Booth is
-end Testbench_di_Booth;
-architecture behavior of Testbench_di_Booth is
+entity Testbench_Booth is
+end Testbench_Booth;
+architecture behavior of Testbench_Booth is
 component booths
 GENERIC(k : POSITIVE := 7); --input number word length less one
 Port( a,b : in STD_LOGIC_VECTOR (k downto 0);
